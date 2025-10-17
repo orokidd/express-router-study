@@ -1,0 +1,22 @@
+{
+  "name": "express-router-study",
+  "version": "1.0.0",
+  "description": "study express router",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/orokidd/express-router-study.git"
+  },
+  "author": "orokidd",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/orokidd/express-router-study/issues"
+  },
+  "homepage": "https://github.com/orokidd/express-router-study#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
