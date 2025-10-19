@@ -1,0 +1,18 @@
+<html>
+  <head>
+    <title>Homepage</title>
+  </head>
+  <body>
+    <%- include('navbar', {links: links}) %>
+
+    <h1>home is where you are</h1>
+    <p>God let me marry her</p>
+
+    <ul>
+    <% users.forEach((user) => { %>
+        <%- include('user', {user: user}); %>
+    <% }); %>
+    </ul>
+
+  </body>
+</html>
